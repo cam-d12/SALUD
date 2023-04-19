@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clickable SVG Map</title>
+    <style>
+      /* Set the size of the map */
+      svg {
+        width: 800px;
+        height: 500px;
+      }
+
+      /* Set the style of the map regions */
+      path {
+        fill: #ccc;
+        stroke: #fff;
+        stroke-width: 1px;
+      }
+
+      /* Change the style of the map regions on hover */
+      path:hover {
+        fill: #f00;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Clickable SVG Map Example</h1>
+    <svg viewBox="0 0 800 500">
+      <a href="https://www.freecodecamp.org" target="_blank">
+        <path id="region1" d="M214,99l5-5l7,5l-2-8l6-1l-2-6l5-3l-5-3l1-5l-6,2l-1-5l-5,2l-2-7l-6,2l-2-8l-6-1l-1-5l-6,3l-3,5l-7,0l3,6l-3,3l3,7l-6,0l2,8l-6,2l2,6l-7,4l4,4l0,7l4,4l-4,4l4,4l-2,7l6,0l-3,7l6,3l2-8l5,3l1,5l6-2l1,5l5-2l2,7l6-2l2,8l6,1l1,5l6-3l3-5l7,0l-3-6l3-3l-3-7l6,0l-2-8l6-2l-2-6l7-4l-4-4l0-7l-4-4l4-4l-4-4l2-7l-6,0z" />
+      </a>
+      <a href="https://en.wikipedia.org/wiki/Los_Angeles" target="_blank">
+        <path id="region2" d="M139,344l-5-5l-7,5l2-8l-6-1l2-6l-5-3l5-3l-1-5l6,2l1-5l5,2l2-7l6,2l2-8l6-1l1-5l6,3l3-5l7,0l-3,6l3,3l-3,7l6,0l-2,8l6,2l-2,6l7,4l-4,4l0,7l4-4l4,4l-4,4l2,7l-6,0l3,7l-6,3l-2-8l-5,3l-1,5l-6-2l-1,5l-5-2l-2,7l-6-2l-2,8l-
